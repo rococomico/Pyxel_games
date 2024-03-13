@@ -3,22 +3,32 @@
 レトロゲームエンジン
 [Pyxel](https://github.com/kitao/pyxel/blob/main/docs/README.ja.md)
 を用いてゲームを作成しました.
-ゲームタイトルのリンクからプレイすることができます
-(音が鳴る場合があるのでご注意ください).
 
-## [Hopping Hiyoko](https://kitao.github.io/pyxel/wasm/launcher/?play=rococomico.Pyxel_games.hopping_hiyoko.hopping_hiyoko&gamepad=enabled)
+## Hopping Hiyoko
 
-ひよこを操作してより高い場所を目指すアクションゲームです.  
-ゲームオーバーまでに到達した高さがそのままスコアになります.
-- 左右移動とジャンプだけのシンプルな操作
-- 敵に当たるとゲームオーバー
+ひよこを操作してより高い場所を目指すアクションゲームです.
+ひよこが敵に当たるまでに到達した高さがスコアとなります.
+
+![pyxel-20240313-191336](https://github.com/rococomico/Pyxel_games/assets/109841232/24252d17-07c9-4b79-bf6a-29f975e9a502)
+![pyxel-20240313-032634](https://github.com/rococomico/Pyxel_games/assets/109841232/e51b97ce-3cca-41c1-a7c1-98ab9f9bf3a7)
+![pyxel-20240313-191647](https://github.com/rococomico/Pyxel_games/assets/109841232/dd1a8add-8444-46c7-9cc9-4d825a720d9f)
+
+下記リンクからプレイすることができます. プレイ中, 効果音が鳴る場面があるので, ご注意ください.
+
+[プレイする](https://kitao.github.io/pyxel/wasm/launcher/?play=rococomico.Pyxel_games.hopping_hiyoko.hopping_hiyoko&gamepad=enabled)
 
 ### 操作方法
-- 方向キー: 左右移動
-- `Return` または `Z`: ジャンプ  
-(スマートフォンの場合, 右ボタンの任意のボタンでジャンプできます)
+キーボードを用いて操作します. 操作方法は以下の通りです.
 
-![hopping_hiyoko](https://user-images.githubusercontent.com/109841232/229306468-89d3528f-0da8-4a07-87d7-03451a243092.gif)
+- 左へ移動: `Left` / `A`
+- 右へ移動: `Right` / `D`
+- ジャンプ: `Space` / `Enter` / `Z`
 
-## 連絡先
-- Twitterアカウント: https://twitter.com/rococomico
+また, スマートフォン, タブレットでも遊ぶことができます. ただし, キーボードと比較して操作がしづらくなります.
+
+- 左へ移動: `Left`
+- 右へ移動: `Right`
+- ジャンプ: 右側の任意のボタン
+
+## その他
+[Twitterアカウント](https://twitter.com/rococomico)
